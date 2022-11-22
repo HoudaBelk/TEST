@@ -1,0 +1,25 @@
+Dans votre Terminal : 
+
+cd C:\Users\hp\Desktop\dossier   #chemin du dossier ou se trouve vos codes
+
+git init
+
+git add . 
+
+#si une erreur s'affiche alors taper : git config advice.userCoreFSMonitorConfig False
+
+#sinon :
+
+git add . 
+
+git commit -m "First commit" 
+
+git checkout -b "Houda_1Code" #donner un nom à votre branche 
+
+git remote add origin https://github.com/MaximeLaine1/Produit-Digital-Spam.git
+
+git remote add nom_remote https://github.com/MaximeLaine1/Produit-Digital-Spam.git
+
+git push nom_remote 
+
+git push --set-upstream origin Houda_code
